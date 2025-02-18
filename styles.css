@@ -1,0 +1,82 @@
+body {
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    color: #27ae60;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdowns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.exchange-icon {
+    font-size: 20px;
+    color: #27ae60;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #219150;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#current-year {
+    font-weight: bold;
+}
+
+#current-date-time {
+    font-size: 14px;
+    color: #ddd;
+}

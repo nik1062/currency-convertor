@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h2>Currency Converter</h2>
+            <label>Enter Amount</label>
+            <input type="number" id="amount" value="1">
+            
+            <div class="dropdowns">
+                <div>
+                    <label>From</label>
+                    <select id="from-currency"></select>
+                </div>
+                <span class="exchange-icon">
+                    <i class="fas fa-exchange-alt"></i>
+                </span>
+                <div>
+                    <label>To</label>
+                    <select id="to-currency"></select>
+                </div>
+            </div>
+            
+            <p id="exchange-rate">1 USD = 132.56 NPR</p>
+            
+            <button id="convert">Get Exchange Rate</button>
+        </div>
+        <footer>
+            <p>&copy; 2025 nik1062. All rights reserved.</p>
+            <a href="https://github.com/nik1062" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="30" height="30">
+            </a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
